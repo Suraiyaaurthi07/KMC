@@ -1,5 +1,5 @@
-![Elbow Curve](<img width="691" height="470" alt="image" src="https://github.com/user-attachments/assets/47c5773a-bd48-4f17-bac3-c8c0949b7a18" />)
-![Scatter Plot](<img width="491" height="482" alt="image" src="https://github.com/user-attachments/assets/fb9f570c-250c-4e71-9450-1d08ef80ee5c" />)
+![Elbow Curve](https://github.com/Suraiyaaurthi07/KMC/blob/323f3a072181f433ff3775e73456b51f3af0f231/screenshots/elbow%20method.png)
+![Scatter Plot](https://github.com/Suraiyaaurthi07/KMC/blob/323f3a072181f433ff3775e73456b51f3af0f231/screenshots/3D%20plot.png)
 Cluster Descript:
 **Cluster 0:** Contains observations with similar characteristics that differentiate them from the other groups. The data points within this cluster show a strong level of similarity and form a well-defined segment.
 
