@@ -2,7 +2,7 @@
 ![Scatter Plot](https://github.com/Suraiyaaurthi07/KMC/blob/323f3a072181f433ff3775e73456b51f3af0f231/screenshots/3D%20plot.png)
 
 
-Cluster Descript:
+Cluster Description:
 
 
 **Cluster 0:** Contains observations with similar characteristics that differentiate them from the other groups. The data points within this cluster show a strong level of similarity and form a well-defined segment.
