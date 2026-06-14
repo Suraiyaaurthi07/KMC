@@ -71,8 +71,20 @@ KMC/
 └── README.md
 ```
 
+## 📊 Visualizations
+
+### Elbow Curve
+Used to determine the optimal number of clusters (K). The "elbow" point indicates
+where adding more clusters gives diminishing returns in reducing WCSS.
 
 ![Elbow Curve](https://github.com/Suraiyaaurthi07/KMC/blob/323f3a072181f433ff3775e73456b51f3af0f231/screenshots/elbow%20method.png)
+
+### 3D RGB Cluster Plot
+A 3D scatter plot of sampled pixels in RGB space, colored by their assigned cluster.
+Centroids are marked with `X`.
+
+
+
 ![Scatter Plot](https://github.com/Suraiyaaurthi07/KMC/blob/323f3a072181f433ff3775e73456b51f3af0f231/screenshots/3D%20plot.png)
 
 
