@@ -71,20 +71,6 @@ KMC/
 └── README.md
 ```
 
-## 🔍 Sample Pixel → Cluster Assignment
-
-The table below shows how the first 10 pixels of the custom image are mapped to their cluster:
-
-```python
-sample_pixels = custom_pixels[:10]
-sample_scaled = scaler.transform(sample_pixels)
-sample_clusters = kmeans.predict(sample_scaled)
-
-results = pd.DataFrame(sample_pixels, columns=["R","G","B"])
-results["Cluster_ID"] = sample_clusters
-results
-```
-
 
 ![Elbow Curve](https://github.com/Suraiyaaurthi07/KMC/blob/323f3a072181f433ff3775e73456b51f3af0f231/screenshots/elbow%20method.png)
 ![Scatter Plot](https://github.com/Suraiyaaurthi07/KMC/blob/323f3a072181f433ff3775e73456b51f3af0f231/screenshots/3D%20plot.png)
@@ -101,6 +87,7 @@ Cluster Description:
 
 
 ## 🔍 Sample Pixel → Cluster Assignment
+
 
 The table below shows how the first 10 pixels of the custom image are mapped to their cluster:
 
