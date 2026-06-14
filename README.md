@@ -19,6 +19,7 @@ This project uses the K-Means Clustering algorithm applied to the RGB pixel valu
 
 How it works, step by step:
 
+```
 Input Image
      │
      ▼
@@ -38,6 +39,10 @@ Replace each pixel with its cluster's centroid color
      │
      ▼
 Quantized Output Image
+```
+
+
+    
 
 Key Steps Explained:
 
