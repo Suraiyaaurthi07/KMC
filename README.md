@@ -71,6 +71,19 @@ KMC/
 └── README.md
 ```
 
+## 🔍 Sample Pixel → Cluster Assignment
+
+The table below shows how the first 10 pixels of the custom image are mapped to their cluster:
+
+```python
+sample_pixels = custom_pixels[:10]
+sample_scaled = scaler.transform(sample_pixels)
+sample_clusters = kmeans.predict(sample_scaled)
+
+results = pd.DataFrame(sample_pixels, columns=["R","G","B"])
+results["Cluster_ID"] = sample_clusters
+results
+```
 
 
 ![Elbow Curve](https://github.com/Suraiyaaurthi07/KMC/blob/323f3a072181f433ff3775e73456b51f3af0f231/screenshots/elbow%20method.png)
@@ -85,6 +98,28 @@ Cluster Description:
 **Cluster 1:** Represents observations with balanced or average feature values. This cluster serves as the central group within the dataset and reflects common patterns among the data points.
 
 **Cluster 2:** Includes observations with characteristics that are distinct from Clusters 0 and 1. The data points in this group share similar feature patterns, forming a separate and identifiable segment.
+
+
+## 🔍 Sample Pixel → Cluster Assignment
+
+The table below shows how the first 10 pixels of the custom image are mapped to their cluster:
+
+
+**Output:**
+
+| Index | R   | G   | B   | Cluster_ID |
+|-------|-----|-----|-----|------------|
+| 0     | 253 | 205 | 159 | 6          |
+| 1     | 253 | 205 | 159 | 6          |
+| 2     | 254 | 206 | 160 | 6          |
+| 3     | 254 | 206 | 160 | 6          |
+| 4     | 255 | 207 | 161 | 6          |
+| 5     | 255 | 208 | 162 | 6          |
+| 6     | 255 | 209 | 163 | 6          |
+| 7     | 255 | 209 | 163 | 6          |
+| 8     | 255 | 207 | 161 | 6          |
+| 9     | 255 | 207 | 161 | 6          |
+
 
 
 
