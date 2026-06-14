@@ -2,14 +2,16 @@ K-Means Color Quantization (KMC)
 
 A machine learning project that applies K-Means Clustering to perform image color quantization — reducing the number of distinct colors in an image while preserving its visual structure.
 
-📌 What is Color Quantization?
+## 📌 What is Color Quantization?
 
-Color quantization is the process of reducing the number of colors used in an image. Instead of storing thousands of unique RGB values, the image is represented using only K representative colors (cluster centroids). This is useful for:
+Color quantization is the process of reducing the number of colors used in an image.
+Instead of storing thousands of unique RGB values, the image is represented using only
+**K representative colors** (cluster centroids). This is useful for:
 
-1.Image compression
-2.Reducing memory usage
-3.Artistic stylization of images
-4.Palette-based rendering
+- Image compression
+- Reducing memory usage
+- Artistic stylization of images
+- Palette-based rendering
 
 🧠 Algorithm Overview
 
