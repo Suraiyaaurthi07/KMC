@@ -1,4 +1,4 @@
-K-Means Color Quantization (KMC)
+##🎨 K-Means Color Quantization (KMC)
 
 A machine learning project that applies K-Means Clustering to perform image color quantization — reducing the number of distinct colors in an image while preserving its visual structure.
 
